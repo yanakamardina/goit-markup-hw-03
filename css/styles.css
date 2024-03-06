@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.list-title {
+    font-size: 20px;
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #2E2F42;
+}
+
+/* Header */
+/* Navigation */
+
+.header-navigation-item {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-navigation-item:hover, 
+.header-navigation-item:focus {
+    color: #404BBF;
+}
+
+/* Contacts */
+
+.header-adress {
+    font-style: normal;
+}
+
+.header-contacts {
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color: #404BBF;
+}
+
+/* Logo */
+
+.logo {
+    font-weight: 700;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-part {
+    color: #2E2F42;
+}
+
+.footer-logo-part {
+    color: #f4f4fd;
+}
+
+/* Banner */
+
+.banner {
+    background-color: #2E2F42;
+}
+
+.banner-title {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.banner-button {
+    background-color: #4D5AE5;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+    background-color: #404BBF;
+}
+
+/* Our team */
+
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
