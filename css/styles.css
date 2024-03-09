@@ -8,8 +8,53 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
 li {
     list-style: none;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .section-text {
@@ -25,6 +70,7 @@ li {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .section-title {
@@ -38,14 +84,66 @@ li {
 }
 
 /* Header */
+
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+/* Logo */
+
+.logo {
+    font-weight: 700;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.header-logo-part {
+    color: #2E2F42;
+}
+
+.footer-logo-part {
+    color: #f4f4fd;
+}
+
 /* Navigation */
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-navigation-item {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-navigation-link {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* .header-navigation-item:not(:last-child) {
+    margin-right: 40px;
+} */
 
 .header-navigation-item:hover, 
 .header-navigation-item:focus {
@@ -69,30 +167,25 @@ li {
     color: #404BBF;
 }
 
-/* Logo */
-
-.logo {
-    font-weight: 700;
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.header-adress-list {
+    display: flex;
+    gap: 40px;
 }
 
-.header-logo-part {
-    color: #2E2F42;
-}
-
-.footer-logo-part {
-    color: #f4f4fd;
-}
+/* .header-adress-item:first-child {
+    margin-right: 40px;
+} */
 
 /* Banner */
 
 .banner {
     background-color: #2E2F42;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner-title {
@@ -102,15 +195,20 @@ li {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .banner-button {
     background-color: #4D5AE5;
     color: white;
-    cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: none;
+    width: 169px;
+    height: 56px;
 }
 
 .banner-button:hover,
@@ -118,15 +216,93 @@ li {
     background-color: #404BBF;
 }
 
+/* Advantages */
+
+.advantages-section {
+   
+}
+
+.advantages-container {}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.advantages-item {
+    max-width: 264px;
+}
+
+.list-title {
+    padding-bottom: 8px;
+}
+
+.section-text {}
+
 /* Our team */
 
 .our-team-section {
     background-color: #F4F4FD;
 }
 
+.our-team-container {}
+
+.section-title {
+margin-bottom: 72px;
+}
+
+.our-team-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
 .our-team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    max-width: 264px;
 }
+
+.our-team-img {
+   
+}
+
+.list-title {
+    text-align: center;
+    
+}
+
+.section-text {
+    text-align: center;
+}
+
+.our-team-wrap {
+    max-width: 232px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* Portfolio */
+
+.portfolio-section {}
+
+.portfolio-container {}
+
+.section-title {}
+
+.our-portfolio-list {}
+
+.our-portfolio-item {}
+
+.our-portfolio-img {}
+
+.list-title {}
+
+.section-text {}
 
 /* Footer */
 
