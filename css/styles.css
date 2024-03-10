@@ -349,12 +349,8 @@ footer {
 }
 
 .logo-bottom {
-    margin-bottom: 16px;
     display: inline-block;
-}
-
-.footer-wrap {
-    
+    margin-bottom: 16px;
 }
 
 .footer {
