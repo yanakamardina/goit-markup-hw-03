@@ -76,11 +76,12 @@ li {
 .section-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-weight: 700;
     color: #2E2F42;
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 /* Header */
@@ -231,11 +232,11 @@ header {
 }
 
 .advantages-item {
-    max-width: 264px;
+    width: calc((100% - 3*24px) / 4);
 }
 
 .list-title {
-    padding-bottom: 8px;
+   
 }
 
 .section-text {}
@@ -272,18 +273,18 @@ margin-bottom: 72px;
 }
 
 .list-title {
-    text-align: center;
     
 }
 
 .section-text {
-    text-align: center;
+   
 }
 
 .our-team-wrap {
     max-width: 232px;
     padding-top: 32px;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 /* Portfolio */
@@ -294,15 +295,29 @@ margin-bottom: 72px;
 
 .section-title {}
 
-.our-portfolio-list {}
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px 24px;
+}
 
-.our-portfolio-item {}
+.our-portfolio-item {
+    
+}
 
 .our-portfolio-img {}
 
 .list-title {}
 
 .section-text {}
+
+.portfolio-wrap {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 16px 32px;
+}
 
 /* Footer */
 
@@ -312,4 +327,18 @@ footer {
 
 .footer-text {
     color: #f4f4fd;
+    margin-top: 16px;
+}
+
+.logo-bottom {
+    margin: 0;
+}
+
+.footer-wrap {
+    max-width: 264px;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
